@@ -44,4 +44,4 @@ If speech recognition fails, ensure your microphone is working.
 
 If you encounter errors with gTTS, try updating the package or check your internet connection.
 
-Ensure all dependencies are installed correctly.
+Ensure all dependencies are installed correctly."# Voice_Chat_Bot" 
