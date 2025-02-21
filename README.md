@@ -1,10 +1,10 @@
-Voice-Enabled Online Shopping Assistant
+## Voice-Enabled Online Shopping Assistant
 
-Overview
+# Overview
 
 The Voice-Enabled Online Shopping Assistant is a Streamlit-based application that allows users to interact with an AI-powered shopping assistant using voice commands or text input. The assistant listens to queries, processes them using a query handler, and responds with relevant shopping-related information.
 
-Features
+# Features
 
 Voice Recognition: Converts spoken queries to text using speech_recognition and sounddevice.
 
@@ -16,7 +16,7 @@ Query Handling: Processes user input through handle_query() to return meaningful
 
 Audio Processing: Records audio, saves it as a temporary file, and transcribes it using Google's speech recognition service.
 
-Technologies Used
+# Technologies Used
 
 speech_recognition: For speech-to-text conversion.
 
@@ -30,7 +30,7 @@ numpy & scipy.io.wavfile: For handling audio processing.
 
 os: For file management and execution.
 
-Usage
+# Usage
 
 Click on the Speak Now button and ask shopping-related questions.
 
@@ -38,10 +38,9 @@ If you prefer, type your query in the input field.
 
 The assistant processes the query and provides a response in text and voice format.
 
-Troubleshooting
+# Troubleshooting
 
 If speech recognition fails, ensure your microphone is working.
 
 If you encounter errors with gTTS, try updating the package or check your internet connection.
 
-Ensure all dependencies are installed correctly."# Voice_Chat_Bot" 
